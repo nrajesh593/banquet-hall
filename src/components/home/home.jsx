@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Footer from "../footer";
 const Home = () => {
     return <>
-    <h1 style={{textAlign:'center',fontFamily:'Brush Script MT, Brush Script Std, cursive',fontWeight:'300px',color:'#e53535',fontSize:'40px'}}>Sidharth Sagar Function Hall</h1>
+    <h1 style={{textAlign:'center',fontFamily:'Brush Script MT, Brush Script Std, cursive',fontWeight:'300px',color:'#e53535',fontSize:'40px'}}>Sidharth Sagar Function Hall & Hotel</h1>
     <Container fluid>
   <Row>
     <Col><Slider /></Col>

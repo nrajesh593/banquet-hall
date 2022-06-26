@@ -56,7 +56,7 @@ return <>
     </Col>
     <Col md='8'>
 <span style={{textDecoration:'underline'}}>Our Address</span>
-<h1>Sidharth Sagar Function Hall</h1>
+<h1>Sidharth Sagar Function Hall & Hotel</h1>
 <h6>Jalaun ByPass, Opposite to Muskan Hospital,</h6>
 <h6> Jalaun Road, ORAI (Jalaun), ORAI - 285001,</h6>
 <h6>Uttar Pradesh</h6>
