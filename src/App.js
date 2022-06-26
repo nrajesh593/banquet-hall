@@ -2,7 +2,7 @@
 import './App.css';
 
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Navbar from "./components/navbar";
+import NB from "./components/navbar";
 import Home from './components/home/home';
 import About from './components/about/aboutus';
 import Gallery from './components/gallery/gallery';
@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-      <Route path="/" element={<Navbar />} >
+      <Route path="/" element={<NB />} >
         <Route index  element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/gallery' element={<Gallery />} />

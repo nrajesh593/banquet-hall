@@ -6,7 +6,7 @@
     justify-content: space-around;
     align-items: center;
     color: #fff;
-    background: rgb(182, 182, 182,0.4);
+    background: rgba(16, 7, 7, 0.8);
   }
   .nav-links {
     width: 40%;
@@ -20,9 +20,10 @@
     text-decoration: none;
   }
   .navbar .nav-links>li>a:hover {
-    color: rgb(233, 14, 134);
+    color: #ffcc00;
     border-bottom: 1px solid black;
       }
       .lactive-class{
-          color:aqua !important;
+        color: #ffcc00 !important;
+          text-decoration: underline !important;
       }
