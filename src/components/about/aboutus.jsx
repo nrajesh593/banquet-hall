@@ -1,5 +1,11 @@
+import StickyFooter from "../stickyfooter";
+import Pricing from './services';
 const About = () => {
-    return <h1>About</h1>;
+    return <>
+    
+    <Pricing />
+    <StickyFooter />
+    </>;
   };
   
   export default About;

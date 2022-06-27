@@ -7,6 +7,7 @@
   import Form from 'react-bootstrap/Form';
   import Button from 'react-bootstrap/Button'
 import { AddressMap } from "./map";
+import StickyFooter from "../stickyfooter";
 const Contact = () => {
 
 
@@ -68,6 +69,7 @@ return <>
   </Row>
 </Container>
 
+<StickyFooter />
 </>;
 // 26.012908814108705, 79.4357267131439
 

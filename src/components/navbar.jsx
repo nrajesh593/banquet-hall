@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import { AiFillPhone } from "react-icons/ai";
+import { AiFillPhone,AiFillMail } from "react-icons/ai";
 const NB= () =>{
   return (
   <>
@@ -22,7 +22,7 @@ const NB= () =>{
     </Nav>
     <Nav>
       <Nav.Link href="#"><AiFillPhone /> +91 6394175022</Nav.Link>
-     
+      <Nav.Link href="#"><AiFillMail />enquiry@ssfunctionhall.com</Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>
